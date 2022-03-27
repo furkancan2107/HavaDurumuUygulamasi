@@ -13,9 +13,7 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   String? secilenSehir;
   final myController = TextEditingController();
-  void birFonksiyon() {
-    print("fon çalıştı ");
-  }
+ 
 
   void _showDialog() {
     // flutter defined function
@@ -39,12 +37,7 @@ class _SearchPageState extends State<SearchPage> {
     );
   }
 
-  @override
-  void initState() {
-    birFonksiyon();
-    // TODO: implement initState
-    super.initState();
-  }
+ 
 
   @override
   Widget build(BuildContext context) {
